@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  root 'races#index'
+  resources :races
+
   get 'welcome/aboutus'
 
   get 'welcome/login'
