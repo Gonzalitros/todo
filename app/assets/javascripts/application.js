@@ -17,3 +17,7 @@
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
+
+$('body').on('click', '#showraces', function(e){
+	$('#tablaraces').slideToggle();
+})
